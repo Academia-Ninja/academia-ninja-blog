@@ -8,16 +8,19 @@
  * @type {import('gatsby').GatsbyConfig}
  */
 module.exports = {
+  pathPrefix: `/academia-ninja-blog`,
   siteMetadata: {
     title: `Academia Ninja Blog`,
     author: {
       name: `Ailton Loures`,
-      summary: `who lives and works in San Francisco building useful things.`,
+      summary: `que vive no Rio de Janeiro e é apaixonado por tecnologia e educação, está na área há mais de 6 anos e já trabalhou em diversos projetos de mercado e acadêmico, hoje atua como Engenheiro de Software na TIVIT.`,
+      site: `https://www.linkedin.com/in/ailton-loures`
     },
-    description: `A starter blog demonstrating what Gatsby can do.`,
-    siteUrl: `https://gatsbystarterblogsource.gatsbyjs.io/`,
+    description: `Blog de conteúdos sobre tecnologia e desenvolvimento pessoal`,
+    siteUrl: `https://academia-ninja.github.io/academia-ninja-blog/`,
     social: {
-      twitter: `kylemathews`,
+      Github: `https://github.com/Academia-Ninja`,
+      Linkedin: `https://www.linkedin.com/in/ailton-loures`,
     },
   },
   plugins: [
@@ -102,7 +105,7 @@ module.exports = {
               }
             }`,
             output: "/rss.xml",
-            title: "Gatsby Starter Blog RSS Feed",
+            title: "Academia Ninja Blog RSS Feed",
           },
         ],
       },
@@ -110,15 +113,15 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Gatsby Starter Blog`,
-        short_name: `Gatsby`,
-        start_url: `/`,
+        name: `Academia Ninja Blog`,
+        short_name: `Academia Ninja`,
+        start_url: `/academia-ninja-blog`,
         background_color: `#ffffff`,
         // This will impact how browsers show your PWA/website
         // https://css-tricks.com/meta-theme-color-and-trickery/
         // theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
+        icon: `src/images/academia-ninja-icon.jpg`, // This path is relative to the root of the site.
       },
     },
   ],

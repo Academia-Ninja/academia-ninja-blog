@@ -1,7 +1,24 @@
 import * as React from "react"
-import { Link } from "gatsby"
+import { useStaticQuery, graphql, Link } from "gatsby"
 
 const Layout = ({ location, title, children }) => {
+  const { site } = useStaticQuery(
+    graphql`
+      query {
+        site {
+          siteMetadata {
+            social {
+              Linkedin
+              Github
+            }
+          }
+        }
+      }
+    `
+  )
+
+  const social = site.siteMetadata?.social
+
   const rootPath = `${__PATH_PREFIX__}/`
   const isRootPath = location.pathname === rootPath
   let header
@@ -25,9 +42,15 @@ const Layout = ({ location, title, children }) => {
       <header className="global-header">{header}</header>
       <main>{children}</main>
       <footer>
-        © {new Date().getFullYear()}, Desenvolvido com
-        {` `}
-        <a href="https://www.gatsbyjs.com">Gatsby</a>
+        © {new Date().getFullYear()}, Academia Ninja
+        {Object.entries(social).map(([key, value]) => {          
+          return (
+            <React.Fragment key={key}>
+              <span> | </span>
+              <a href={value}>{key}</a>
+            </React.Fragment>
+          )
+        })}
       </footer>
     </div>
   )
