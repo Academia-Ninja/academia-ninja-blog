@@ -8,7 +8,6 @@
  * @type {import('gatsby').GatsbyConfig}
  */
 module.exports = {
-  pathPrefix: `/academia-ninja-blog`,
   siteMetadata: {
     title: `Academia Ninja Blog`,
     author: {
