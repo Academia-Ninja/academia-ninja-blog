@@ -58,8 +58,8 @@ module.exports = {
         ],
       },
     },
-    `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
+    `gatsby-transformer-sharp`,
     {
       resolve: `gatsby-plugin-feed`,
       options: {
@@ -114,7 +114,7 @@ module.exports = {
       options: {
         name: `Academia Ninja Blog`,
         short_name: `Academia Ninja`,
-        start_url: `/academia-ninja-blog`,
+        start_url: `/`,
         background_color: `#ffffff`,
         // This will impact how browsers show your PWA/website
         // https://css-tricks.com/meta-theme-color-and-trickery/
