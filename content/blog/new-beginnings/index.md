@@ -13,7 +13,7 @@ Duden flows by their place and supplies it with the necessary regelialia.
 
 ## On deer horse aboard tritely yikes and much
 
-![Academia](img/academia-ninja.jpg)
+![Academia Ninja](img/academia-ninja.jpg)
 
 The Big Oxmox advised her not to do so, because there were thousands of bad
 Commas, wild Question Marks and devious Semikoli, but the Little Blind Text
