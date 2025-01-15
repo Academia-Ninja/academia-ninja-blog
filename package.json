@@ -28,7 +28,6 @@
     "react-dom": "^18.1.0"
   },
   "devDependencies": {
-    "gh-pages": "^6.2.0",
     "prettier": "^2.8.8"
   },
   "homepage": "https://github.com/Academia-Ninja/academia-ninja-blog#readme",
