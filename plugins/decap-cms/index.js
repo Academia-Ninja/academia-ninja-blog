@@ -10,7 +10,7 @@ function fromUserData() {
 }
 
 function addUserDataIntoAnyField(user, field) {
-    const fieldLabel = Array.from(document.querySelectorAll('label').find(label => label.textContent.trim() === field));
+    const fieldLabel = Array.from(document.querySelectorAll('label')).find(label => label.textContent.trim() === field);
     const fieldInput = document.getElementById(fieldLabel.getAttribute('for'));
 
     fieldInput.value = user.name;
