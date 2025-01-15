@@ -28,7 +28,7 @@ module.exports = {
       options: {
         publicPath: `admin`,
         htmlTitle: `Admin | Academia Ninja Blog`,
-        htmlFavicon: `src/images/academia-ninja-icon.jpg`,
+        htmlFavicon: `src/images/logo.jpg`,
         includeRobots: false,
         enableIdentityWidget: true,
       },
