@@ -13,13 +13,15 @@ const BlogIndex = ({ data, location }) => {
   return (
     <Layout location={location} title={siteTitle}>
       <Bio />
-      {posts.length === 0 ? 
-        (<p>
-            Não foram encontradas postagens no blog.
-          </p>) : 
-        (<ol style={{ listStyle: `none` }}>
-              {posts.map((post) => (<Post post={post} key={post.fields.slug} />))}
-          </ol>)}      
+      {posts.length === 0 ? (
+        <p>Não foram encontradas postagens no blog.</p>
+      ) : (
+        <ol style={{ listStyle: `none` }}>
+          {posts.map(post => (
+            <Post post={post} key={post.fields.slug} />
+          ))}
+        </ol>
+      )}
     </Layout>
   )
 }
