@@ -26,7 +26,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-decap-cms`,
       options: {
-        modulePath: `plugins/decap-cms/index.js`,
+        modulePath: `${__dirname}/plugins/decap-cms/index.js`,
         publicPath: `admin`,
         htmlTitle: `Admin | Academia Ninja Blog`,
         htmlFavicon: `src/images/logo.jpg`,
