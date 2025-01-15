@@ -1,15 +1,29 @@
 backend:
   name: git-gateway
   branch: master
+  commit_messages:
+    create: Create {{collection}} “{{slug}}” by {{author-name}}
+    update: Update {{collection}} “{{slug}}” by {{author-name}}
+    delete: Delete {{collection}} “{{slug}}” by {{author-name}}
+    uploadMedia: Upload “{{path}}” by {{author-name}}
+    deleteMedia: Delete “{{path}}” by {{author-name}}
+  squash_merges: true
 
 media_folder: static/img
 public_folder: /img
+
+publish_mode: editorial_workflow
+
+site_url: https://blog.academia-ninja.com
+display_url: https://blog.academia-ninja.com
+logo_url: https://blog.academia-ninja.com/img/logo.jpg
 
 collections:
   - name: 'blog'
     label: 'Blog'
     folder: 'content/blog'
     create: true
+    delete: false
     slug: 'index'
     media_folder: 'img'
     public_folder: 'img'
@@ -18,7 +32,7 @@ collections:
       preview: true
     fields:
       - { label: 'Title', name: 'title', widget: 'string' }
-      - { label: 'Publish Date', name: 'date', widget: 'datetime' }
-      - { label: 'Author', name: 'author', widget: 'string' }
+      - { label: 'Publish Date', name: 'date', widget: 'datetime', default: '{{now}}' }
+      - { label: 'Author', name: 'author', widget: 'string', default: '{{author-name}}' }
       - { label: 'Description', name: 'description', widget: 'string' }
       - { label: 'Body', name: 'body', widget: 'markdown' }

@@ -16,7 +16,7 @@ module.exports = {
       site: `https://www.linkedin.com/in/ailton-loures`
     },
     description: `Blog de conteúdos sobre tecnologia e desenvolvimento pessoal`,
-    siteUrl: `https://academia-ninja-blog.netlify.app/`,
+    siteUrl: `https://blog.academia-ninja.com/`,
     social: {
       Github: `https://github.com/Academia-Ninja`,
       Linkedin: `https://www.linkedin.com/in/ailton-loures`,
@@ -26,11 +26,11 @@ module.exports = {
     {
       resolve: `gatsby-plugin-decap-cms`,
       options: {
-        enableIdentityWidget: true,
         publicPath: `admin`,
         htmlTitle: `Admin | Academia Ninja Blog`,
         htmlFavicon: `src/images/academia-ninja-icon.jpg`,
         includeRobots: false,
+        enableIdentityWidget: true,
       },
     },
     `gatsby-plugin-image`,
