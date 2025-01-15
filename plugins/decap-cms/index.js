@@ -25,4 +25,4 @@ function registerWindowEvents() {
     window.addEventListener('popstate', onPageChange);
 }
 
-registerWindowActions();
+registerWindowEvents();
