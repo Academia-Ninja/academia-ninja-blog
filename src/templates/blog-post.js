@@ -3,12 +3,13 @@ import { Link, graphql } from "gatsby"
 
 import Layout from "../components/layout"
 import Seo from "../components/seo"
+import { formatDate } from "../helpers/formatDate"
 
 const BlogPostTemplate = ({
   data: { previous, next, site, markdownRemark: post },
   location,
 }) => {
-  const siteTitle = site.siteMetadata?.title || `Title`
+  const siteTitle = site.siteMetadata?.title || `Início`
 
   return (
     <Layout location={location} title={siteTitle}>
@@ -19,7 +20,7 @@ const BlogPostTemplate = ({
       >
         <header>
           <h1 itemProp="headline">{post.frontmatter.title}</h1>
-          <p>{post.frontmatter.date}</p>
+          <p>{formatDate(post.frontmatter.date)}</p>
         </header>
         <section
           dangerouslySetInnerHTML={{ __html: post.html }}
@@ -27,7 +28,9 @@ const BlogPostTemplate = ({
         />
         <hr />
         <footer>
-          { post.frontmatter.author ? `Escrito por ${post.frontmatter.author}` : null}
+          {post.frontmatter.author
+            ? `Escrito por ${post.frontmatter.author}`
+            : null}
         </footer>
       </article>
       <nav className="blog-post-nav">

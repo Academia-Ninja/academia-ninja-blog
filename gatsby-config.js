@@ -12,8 +12,7 @@ module.exports = {
     title: `Academia Ninja Blog`,
     author: {
       name: `Ailton Loures`,
-      summary: `que vive no Rio de Janeiro e é apaixonado por tecnologia e educação, está na área há mais de 6 anos e já trabalhou em diversos projetos de mercado e acadêmico, hoje atua como Engenheiro de Software na TIVIT.`,
-      site: `https://www.linkedin.com/in/ailton-loures`
+      site: `https://www.linkedin.com/in/ailton-loures`,
     },
     description: `Blog de conteúdos sobre tecnologia e desenvolvimento pessoal`,
     siteUrl: `https://blog.academia-ninja.com/`,
@@ -29,7 +28,7 @@ module.exports = {
         modulePath: `${__dirname}/plugins/decap-cms/index.js`,
         publicPath: `admin`,
         htmlTitle: `Admin | Academia Ninja Blog`,
-        htmlFavicon: `src/images/logo.jpg`,
+        htmlFavicon: `static/img/logo.jpg`,
         includeRobots: false,
         enableIdentityWidget: true,
       },
@@ -46,7 +45,7 @@ module.exports = {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `images`,
-        path: `${__dirname}/src/images`,
+        path: `${__dirname}/static/img`,
       },
     },
     {
@@ -131,7 +130,7 @@ module.exports = {
         // https://css-tricks.com/meta-theme-color-and-trickery/
         // theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `src/images/logo.jpg`, // This path is relative to the root of the site.
+        icon: `static/img/logo.jpg`, // This path is relative to the root of the site.
       },
     },
   ],
