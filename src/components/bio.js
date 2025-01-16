@@ -31,8 +31,7 @@ const Bio = () => {
           mundo acadêmico e open source. Atualmente, atua como Engenheiro de
           Software na TIVIT, consolidando sua expertise e impulsionando soluções
           inovadoras no campo da tecnologia. <br />
-          <br />
-          Mas...{" "}
+          <br />- Tá! mas...{" "}
           <Link to="/academia-ninja/" itemProp="url">
             <strong>
               <span itemProp="headline">o que é a Academia Ninja?</span>
