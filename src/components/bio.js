@@ -21,7 +21,7 @@ const Bio = () => {
     <div className="bio">
       {author?.name && (
         <p>
-          Criada e liderada por{" "}
+          Criada por{" "}
           <strong>
             <a href={author.site}>{author.name}</a>
           </strong>

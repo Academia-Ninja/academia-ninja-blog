@@ -9,7 +9,7 @@
  */
 module.exports = {
   siteMetadata: {
-    title: `Academia Ninja Blog`,
+    title: `Academia Ninja`,
     author: {
       name: `Ailton Loures`,
       site: `https://www.linkedin.com/in/ailton-loures`,

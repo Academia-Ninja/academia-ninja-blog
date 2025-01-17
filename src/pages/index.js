@@ -13,6 +13,7 @@ const BlogIndex = ({ data, location }) => {
   return (
     <Layout location={location} title={siteTitle}>
       <Bio />
+      <h1 className="title-heading">Blog</h1>
       {posts.length === 0 ? (
         <p>Não foram encontradas postagens no blog.</p>
       ) : (
@@ -28,7 +29,7 @@ const BlogIndex = ({ data, location }) => {
 
 export default BlogIndex
 
-export const Head = () => <Seo title="Posts" />
+export const Head = () => <Seo title="Blog" />
 
 export const pageQuery = graphql`
   {
