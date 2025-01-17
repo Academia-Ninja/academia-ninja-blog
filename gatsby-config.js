@@ -1,10 +1,4 @@
 /**
- * Configure your Gatsby site with this file.
- *
- * See: https://www.gatsbyjs.com/docs/reference/config-files/gatsby-config/
- */
-
-/**
  * @type {import('gatsby').GatsbyConfig}
  */
 module.exports = {
@@ -126,11 +120,17 @@ module.exports = {
         short_name: `Academia Ninja`,
         start_url: `/`,
         background_color: `#ffffff`,
-        // This will impact how browsers show your PWA/website
-        // https://css-tricks.com/meta-theme-color-and-trickery/
-        // theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `static/img/logo.jpg`, // This path is relative to the root of the site.
+        icon: `static/img/logo.jpg`,
+      },
+    },
+    {
+      resolve: `gatsby-plugin-google-gtag`,
+      options: {
+        trackingIds: ["G-GXYZTT4JZP", "GT-MK4T5ZTG"],
+        pluginConfig: {
+          head: true,
+        },
       },
     },
   ],

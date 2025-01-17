@@ -14,6 +14,8 @@ const BlogIndex = ({ data, location }) => {
     <Layout location={location} title={siteTitle}>
       <Bio />
       <h1 className="title-heading">Blog</h1>
+      <h6>Últimas postagens</h6>
+      <hr />
       {posts.length === 0 ? (
         <p>Não foram encontradas postagens no blog.</p>
       ) : (
