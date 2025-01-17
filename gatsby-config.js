@@ -21,7 +21,7 @@ module.exports = {
       options: {
         modulePath: `${__dirname}/plugins/decap-cms/index.js`,
         publicPath: `admin`,
-        htmlTitle: `Admin | Academia Ninja Blog`,
+        htmlTitle: `Admin | Academia Ninja`,
         htmlFavicon: `static/img/logo.jpg`,
         includeRobots: false,
         enableIdentityWidget: true,
@@ -108,7 +108,7 @@ module.exports = {
               }
             }`,
             output: "/rss.xml",
-            title: "Academia Ninja Blog RSS Feed",
+            title: "Academia Ninja RSS Feed",
           },
         ],
       },
@@ -116,7 +116,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Academia Ninja Blog`,
+        name: `Academia Ninja`,
         short_name: `Academia Ninja`,
         start_url: `/`,
         background_color: `#ffffff`,
