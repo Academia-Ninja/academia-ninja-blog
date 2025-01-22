@@ -5,11 +5,31 @@ author: Ailton Loures
 ---
 Olá, aqui quem vos escreve é o Ailton e estou aqui para contar um pouco sobre a história desse projeto que se chama Academia Ninja. Eu já tinha preparado alguns conteúdos bem técnicos para lançar nesse blog, até porque estamos aqui para falar sobre tecnologia, mas não seria justo começar aqui sem ninguém ter ideia do que este projeto significa. Afinal, o que é a Academia Ninja? se imaginou que somos uma Comunidade, você acertou.
 
-Tudo começou em 2021, estávamos no fim do período de pandemia e na época eu trabalhava na [Fiocruz (Fundação Oswaldo Cruz)](https://portal.fiocruz.br/) como programador. Meus amigos sabiam minha profissão, mas não faziam ideia do que de fato era ou que eu fazia até que um deles me procurou para ajudar em seu trabalho da faculdade. Me lembro como se fosse ontem, nos reunimos na casa dele que era bem próxima da minha e ele chamou mais um outro colega que estava sondando algumas universidades para cursar Tecnologia da Informação, mas que ainda precisava de um certo incentivo. Esse trabalho era do curso de Programação III do curso de Engenharia de Produção da UFRJ, e a demanda era desenvolver um jogo na linguagem de programação Python. Juntos tivemos a brilhante ideia de construir o famoso jogo da “cobrinha”, por ser um jogo aparentemente simples, sem muita demanda de recursos ou lógica complexa, se encaixou perfeitamente com a linguagem que também seria mais tranquila para ensinar aos novatos.
 
-Conseguimos finalizar o trabalho e entregar como o esperado, mas após esse momento tive ótimos feedbacks desses meus amigos. Primeiro, foi o sentimento de gratidão onde pude ajudar e ensinar programação em Python para eles e segundo que, consegui influenciar o amigo que estava sondando o curso de T.I para ingressar de vez na faculdade, consegui mostrar o lado divertido da coisa e fazer esse projeto em grupo foi bastante enriquecedor para todos. A partir disso decidimos criar um grupo de estudos semanal, onde compartilhávamos ideias, conhecimentos e eu conseguia tirar esse tempo para ensiná-los a programar. Aos poucos esse grupo foi crescendo, fomos influenciando mais amigos a estudar conosco, os amigos dos amigos foram chegando e o grupo amadureceu junto. Hoje somos mais de 60 pessoas espalhadas pelo Brasil! Sim, temos membros espalhados por vários cantos desse país. Juntos formamos essa comunidade chamada Academia Ninja, que é focada em atender e compartilhar conhecimento de forma mútua.
 
-Hoje, esse blog se tornou parte do projeto e é mantido pelos membros da comunidade, aqui compartilharemos conteúdos diversos sobre Tecnologia e Carreira em Tecnologia da Informação.
+## O Início de tudo
+
+Tudo começou em 2021, estávamos no fim do período de pandemia e na época eu trabalhava na [Fiocruz (Fundação Oswaldo Cruz)](https://portal.fiocruz.br/) como programador. Meus amigos sabiam minha profissão, mas não faziam ideia do que de fato era ou que eu fazia até que um deles me procurou para ajudar em seu trabalho da faculdade. Me lembro como se fosse ontem, nos reunimos na casa dele que era bem próxima da minha e ele chamou mais um outro colega que estava sondando algumas universidades para cursar Tecnologia da Informação, mas que ainda precisava de um certo incentivo. 
+
+Esse trabalho era do curso de Programação III do curso de Engenharia de Produção da UFRJ, e a demanda era desenvolver um jogo na linguagem de programação Python. Juntos tivemos a brilhante ideia de construir o famoso jogo da “cobrinha”, por ser um jogo aparentemente simples, sem muita demanda de recursos ou lógica complexa, se encaixou perfeitamente com a linguagem que também seria mais tranquila para ensinar aos novatos. Conseguimos finalizar o trabalho e entregar como o esperado.
+
+
+
+## Após o primeiro projeto
+
+Após esse momento, tive ótimos feedbacks desses meus amigos. Primeiro, foi o sentimento de gratidão, onde pude ajudar e ensinar programação em Python para eles. Segundo, consegui influenciar o amigo que estava sondando o curso de T.I para ingressar de vez na faculdade. Fazer esse projeto em grupo foi bastante enriquecedor para todos, e consegui mostrar o lado divertido da coisa.
+
+A partir disso, decidimos criar um grupo de estudos semanal, onde compartilhávamos ideias, conhecimentos e eu conseguia tirar esse tempo para ensiná-los a programar. Aos poucos esse grupo foi crescendo, fomos influenciando mais amigos a estudar conosco, os amigos dos amigos foram chegando e o grupo amadureceu junto.
+
+
+
+## Academia Ninja Hoje
+
+Hoje, somos mais de 60 pessoas espalhadas pelo Brasil! Sim, temos membros espalhados por vários cantos desse país. Juntos formamos essa comunidade chamada Academia Ninja, que é focada em atender e compartilhar conhecimento de forma mútua.
+
+Esse blog se tornou parte do projeto e é mantido pelos membros da comunidade. Aqui compartilharemos conteúdos diversos sobre Tecnologia e Carreira em Tecnologia da Informação.
+
+
 
 ## Qual o significado do nome?
 
