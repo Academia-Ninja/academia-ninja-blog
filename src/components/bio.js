@@ -1,5 +1,5 @@
 import * as React from "react"
-import { useStaticQuery, graphql, Link } from "gatsby"
+import { useStaticQuery, graphql } from "gatsby"
 
 const Bio = () => {
   const data = useStaticQuery(graphql`
@@ -21,7 +21,7 @@ const Bio = () => {
     <div className="bio">
       {author?.name && (
         <p>
-          Criada por{" "}
+          A Academia Ninja foi criada em 2021 por{" "}
           <strong>
             <a href={author.site}>{author.name}</a>
           </strong>
@@ -32,18 +32,15 @@ const Bio = () => {
           contribuiu (e ainda contribui!) tanto para projetos do mercado quanto
           para iniciativas no mundo acadêmico e de código aberto.
           <br />
-          <br />
-          - Beleza, mas... o que é a Academia Ninja?
-          <br />
           <br />O objetivo da Academia Ninja sempre foi apoiar e instruir
           calouros da faculdade e iniciantes na área de Tecnologia da
-          Informação, para todos poderem trocar ideias, contribuir em soluções e
-          em novos projetos. Conheça mais da nossa história em:{" "}
-          <Link to="/academia-ninja/" itemProp="url">
-            <strong>
-              <span itemProp="headline">O que é a Academia Ninja?</span>
-            </strong>
-          </Link>
+          Informação, para todos poderem compartilhar ideias, contribuir em
+          soluções e desenvolver novos projetos.
+          <br />
+          <br />
+          Este blog se tornou parte do projeto e é mantido pelos membros da
+          comunidade, aqui compartilharemos conteúdos diversos sobre Tecnologia
+          e Carreira em Tecnologia da Informação.
         </p>
       )}
     </div>
