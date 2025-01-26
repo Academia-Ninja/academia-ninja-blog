@@ -23,7 +23,9 @@ const Bio = () => {
         <p>
           A Academia Ninja foi criada em 2021 por{" "}
           <strong>
-            <a href={author.site}>{author.name}</a>
+            <a href={author.site} target="blank">
+              {author.name}
+            </a>
           </strong>
           , carioca, apaixonado por tecnologia e educação. Engenheiro de
           Software com mais de 6 anos de experiência no setor, Ailton acumulou
