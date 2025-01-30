@@ -34,10 +34,14 @@ const Bio = () => {
           contribuiu (e ainda contribui!) tanto para projetos do mercado quanto
           para iniciativas no mundo acadêmico e de código aberto.
           <br />
-          <br />O objetivo da Academia Ninja sempre foi apoiar e instruir
-          calouros da faculdade e iniciantes na área de Tecnologia da
-          Informação, para todos poderem compartilhar ideias, contribuir em
-          soluções e desenvolver novos projetos.
+          <br />
+          Somos uma comunidade de tecnologia que conta com um espaço
+          colaborativo dedicado ao ensino e aprendizado de linguagens de
+          programação aplicado em projetos reais. O nosso objetivo é apoiar e
+          instruir calouros da faculdade e iniciantes na área de Tecnologia da
+          Informação e também desenvolver um ambiente onde todos possam
+          compartilhar ideias, contribuir em soluções e desenvolver novos
+          projetos.
           <br />
           <br />
           Este blog se tornou parte do projeto e é mantido pelos membros da
