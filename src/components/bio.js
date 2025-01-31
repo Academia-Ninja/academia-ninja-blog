@@ -16,6 +16,7 @@ const Bio = () => {
   `)
 
   const author = data.site.siteMetadata?.author
+  const careerLength = (new Date().getFullYear() - 2018)
 
   return (
     <div className="bio">
@@ -28,7 +29,7 @@ const Bio = () => {
             </a>
           </strong>
           , carioca, apaixonado por tecnologia e educação. Engenheiro de
-          Software com mais de 6 anos de experiência no setor, Ailton acumulou
+          Software com {careerLength} anos de experiência no setor, Ailton acumulou
           vivências enriquecedoras, consolidando sua expertise e impulsionando
           soluções inovadoras no campo da tecnologia. Ao longo da trajetória,
           contribuiu (e ainda contribui!) tanto para projetos do mercado quanto
