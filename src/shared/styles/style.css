@@ -82,6 +82,10 @@ footer {
   padding: var(--spacing-6) var(--spacing-0);
 }
 
+footer a {
+  text-decoration: none;
+}
+
 hr {
   background: var(--color-accent);
   height: 1px;
@@ -321,6 +325,10 @@ a {
 
 .blog-post-nav ul {
   margin: var(--spacing-0);
+}
+
+.blog-post-nav li a {
+  text-decoration: none;
 }
 
 .gatsby-highlight {
