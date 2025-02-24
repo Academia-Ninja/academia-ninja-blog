@@ -312,8 +312,13 @@ a:focus {
   color: var(--color-primary);
 }
 
-.blog-post header p {
-  font-size: var(--fontSize-2);
+.blog-post header div {
+  justify-content: space-between;
+  display: flex;
+}
+
+.blog-post header div p {
+  font-size: var(--fontSize-1);
   font-family: var(--font-heading);
 }
 
