@@ -22,7 +22,7 @@ const BlogPostTemplate = ({
           <h1 itemProp="headline">{post.frontmatter.title}</h1>
           <div>
             <p>{formatDate(post.frontmatter.date)}</p>
-            <p>{Math.round(post.fields.readingTime.minutes)} min de leitura</p>
+            <p>{Math.round(post.fields.readingTime.minutes)} min. de leitura</p>
           </div>
         </header>
         <section

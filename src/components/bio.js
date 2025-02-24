@@ -40,7 +40,7 @@ const Bio = () => {
           colaborativo dedicado ao ensino e aprendizado de linguagens de
           programação aplicado em projetos reais. O nosso objetivo é apoiar e
           instruir calouros da faculdade e iniciantes na área de Tecnologia da
-          Informação e também desenvolver um ambiente onde todos possam
+          Informação, buscamos também desenvolver um ambiente onde todos possam
           compartilhar ideias, contribuir em soluções e desenvolver novos
           projetos.
           <br />
