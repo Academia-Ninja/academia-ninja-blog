@@ -227,11 +227,8 @@ table thead tr th {
 
 a {
   color: var(--color-primary);
-}
-
-a:hover,
-a:focus {
-  text-decoration: none;
+  text-decoration: dashed underline;
+  text-underline-offset: 5px;
 }
 
 /* Custom classes */
