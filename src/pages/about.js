@@ -1,9 +1,9 @@
 import * as React from "react"
 import { graphql } from "gatsby"
 
-import Layout from "../components/layout"
-import Seo from "../components/seo"
-import Bio from "../components/bio"
+import Layout from "@components/layout"
+import Seo from "@components/seo"
+import Bio from "@components/bio"
 
 const AboutPage = ({ data, location }) => {
   const siteTitle = data.site.siteMetadata?.title || `Title`

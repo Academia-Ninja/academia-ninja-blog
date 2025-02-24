@@ -134,5 +134,21 @@ module.exports = {
         },
       },
     },
+    {
+      resolve: `gatsby-plugin-alias-imports`,
+      options: {
+        alias: {
+          "@components": `${__dirname}/src/components`,
+          "@helpers": `${__dirname}/src/helpers`,
+          "@pages": `${__dirname}/src/pages`,
+          "@templates": `${__dirname}/src/templates`,
+          "@shared": `${__dirname}/src/shared`,
+          "@posts": `${__dirname}/content/posts`,
+        },
+        extensions: [
+          "js",
+        ],
+      }
+    }
   ],
 }

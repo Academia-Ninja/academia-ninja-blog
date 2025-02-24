@@ -1,6 +1,6 @@
 import * as React from "react"
 import { Link } from "gatsby"
-import { formatDate } from "../helpers/formatDate"
+import { formatDate } from "@helpers/formatDate"
 
 const Post = ({ post }) => {
   const title = post.frontmatter.title || post.fields.slug
