@@ -20,6 +20,8 @@ const BlogPostTemplate = ({
       >
         <header>
           <h1 itemProp="headline">{post.frontmatter.title}</h1>
+          {post.frontmatter.tags.map((tag) => (<a className="blog-post-tag" href="#!"> #{tag} </a>))}
+          <hr />
           <div>
             <p>{formatDate(post.frontmatter.date)}</p>
             <p>{Math.round(post.fields.readingTime.minutes)} min. de leitura</p>
@@ -94,9 +96,10 @@ export const pageQuery = graphql`
       html
       frontmatter {
         title
-        date(formatString: "MMMM DD, YYYY")
+        date
         description
         author
+        tags
       }
       fields {
         readingTime {

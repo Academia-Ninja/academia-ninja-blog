@@ -5,6 +5,7 @@ function formatDate(
     year: "numeric",
     month: "long",
     day: "numeric",
+    timeZone: "UTC",
   }
 ) {
   return new Intl.DateTimeFormat(locale, options).format(new Date(date))

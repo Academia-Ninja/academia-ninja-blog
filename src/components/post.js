@@ -27,6 +27,7 @@ const Post = ({ post }) => {
             }}
             itemProp="description"
           />
+          {post.frontmatter.tags.map((tag) => (<a className="blog-post-tag" href="#!"> #{tag} </a>))}
         </section>
       </article>
     </li>
