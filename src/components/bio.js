@@ -32,8 +32,10 @@ const Bio = () => {
           Software com {careerLength} anos de experiência no setor, Ailton acumulou
           vivências enriquecedoras, consolidando sua expertise e impulsionando
           soluções inovadoras no campo da tecnologia. Ao longo da trajetória,
-          contribuiu (e ainda contribui!) tanto para projetos do mercado quanto
-          para iniciativas no mundo acadêmico e de código aberto.
+          teve a oportunidade de contribuir para projetos de mercado,
+          iniciativas no mundo acadêmico e de código aberto. 
+          Sempre buscando compartilhar conhecimento e incentivar o aprendizado, 
+          enxergando a Academia Ninja como um espaço para trocar experiências e evoluir junto com a comunidade.
           <br />
           <br />
           Somos uma comunidade de tecnologia que conta com um espaço
